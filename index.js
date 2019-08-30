@@ -21,6 +21,6 @@ function currentLine(line) {
     deliline.push(`${i+1}. ${line[i]}`)
       
     }
-    return(`The line is currently: ${deliline}`)
+    return(`The line is currently: ${deliline.join(", ")}`)
   }
 }
