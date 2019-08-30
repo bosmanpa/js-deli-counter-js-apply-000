@@ -18,7 +18,7 @@ function currentLine(line) {
   else {
     var deliline = []
     for (let i = 0; i < line.length; i++) {
-    deliline.push(`${i+1}. ${line[i]},`)
+    deliline.push(`${i+1}. ${line[i]}`)
       
     }
     return(`The line is currently: ${deliline}`)
