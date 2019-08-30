@@ -16,11 +16,11 @@ function currentLine(line) {
     return "The line is currently empty."
   }
   else {
-    
+    var deliline = []
     for (let i = 0; i < line.length; i++) {
-    
+    deliline.push(`${i+1}. ${line[i]},`)
       
     }
-    return(`The line is currently: 1. ${line[0]}, 2. ${line[1]}, 3. ${line[2]}`)
+    return(`The line is currently: ${deliline}`)
   }
 }
