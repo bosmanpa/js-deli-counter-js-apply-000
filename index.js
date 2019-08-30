@@ -16,7 +16,7 @@ function currentLine(line) {
     return "The line is currently empty."
   }
   else {
-    
+    for 
     return(`The line is currently: 1. ${line[0]}, 2. ${line[1]}, 3. ${line[2]}`)
   }
 }
