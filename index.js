@@ -2,11 +2,13 @@ function takeANumber (line, name) {
   line.push(name);
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
+var pos = 0
 function takeANumber (line) {
-  var pos = 0
+
   pos++
-  return `Welcome, you have ticket number ${pos}`
   line.push(pos)
+  return `Welcome, you have ticket number ${pos}`
+  
 }
 
 
